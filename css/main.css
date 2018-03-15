@@ -1,0 +1,163 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #999999;
+}
+
+/* NAVBAR */
+.col-3 {
+  background-color: #FFFFFF;
+  height: 100vh;
+}
+.col-9 {
+  background-color: #FFFFFF;
+}
+
+.logo {
+  max-width: 250px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+.logo img {
+  width : 100%;
+}
+.big{
+  width: 100%;
+}
+.hero{
+  width: 80%;
+}
+.img-hero{
+  width: 100%;
+}
+
+/* menu principal */
+
+.menu {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.info{
+  list-style-type: none;
+}
+.principal a{
+  color: #999999;
+  list-style-type: none;
+  text-decoration: none;
+}
+.principal a:hover{
+  color: #c1c1c1;
+  list-style-type: none;
+}
+
+
+/* menu jeux */
+.jeux{
+  margin-top: 60px;
+  list-style-type: none;
+  max-height: 30vh;
+  overflow-y: auto;
+  background-color: #FFFFFF;
+
+}
+.list-jeux{
+  list-style-type: none;
+}
+.jeu a{
+  color: #999999;
+  list-style-type: none;
+}
+.jeu a:hover{
+  color: #c1c1c1;
+  list-style-type: none;
+  text-decoration: none;
+}
+.active a{
+  color: #7ff2d2;
+  list-style-type: none;
+  text-decoration: none;
+}
+.active a:hover{
+  color: #60D394;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/* JEUX spoke */
+.spoke-expl{
+  width:70%;
+}
+
+.gif-spoke{
+  width:100%;
+}
+
+.expl{
+  width:75%;
+}
+
+.propos{
+  width:100%;
+}
+.last{
+  margin-bottom: 50px;
+}
+
+.item-main{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.item{
+  width: 80px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+h2{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5px;
+}
+.main{
+  width: 100%;
+
+}
+
+.histoire {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.couleur{
+  margin-top: -10px;
+  color: #7ff2d2;
+}
+.titre{
+
+}
+h1{
+  font-size: 40px;
+  text-align: left;
+}
+p{
+  margin-top: 20px;
+  text-align: center;
+}
+.regles{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
